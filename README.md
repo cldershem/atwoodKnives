@@ -7,6 +7,7 @@ Checks Atwood Knives to see if the bike tool has been released.
 - Fill in your info
 - Install requirements (use a virtualenv)
     - `pip install -r ./requirements.txt`
+- set `TESTING = False` in `bike_tool_notifer.py`
 
 
 # LICENSE
