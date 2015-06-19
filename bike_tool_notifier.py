@@ -8,7 +8,7 @@ Checks atwoodknives to see if the bike tool has been released.
 
 :copyright: (c) 2015 by Cameron Dershem.
 :license: see TOPMATTER
-:source: github.com/cldershem/repo
+:source: github.com/cldershem/atwoodKnives
 """
 import feedparser
 import dateutil.parser
