@@ -18,7 +18,7 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
 
-TESTING = True
+TESTING = False
 
 
 def get_most_recent(feed):
@@ -31,7 +31,7 @@ def is_new_post(date_string):
     if TESTING:
         return True
 
-    start_date = dateutil.parser.parse('2015-06-19 10:34:00-04:00')
+    start_date = dateutil.parser.parse('2015-07-14 11:34:00-04:00')
     last_date = dateutil.parser.parse(date_string)
 
     if last_date > start_date:
